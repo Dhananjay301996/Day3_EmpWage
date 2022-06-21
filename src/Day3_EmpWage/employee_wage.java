@@ -36,7 +36,20 @@ public class employee_wage {
 			System.out.println("Employee Part time wage= 0");
 		}
 		
+		switch(employee_check) {
+			
+		case 1 :
+			System.out.println("Employee is Present");
+			System.out.println("Employee daily wage= " +  daily_wage);
+			System.out.println("Employee Part time wage= " +  parttime_wage);
+			break;
 		
+		default :
+			System.out.println("Employee is Absent");
+			System.out.println("Employee daily wage= 0");
+			System.out.println("Employee Part time wage= 0");
+			
+		}
 		
 		
 		
